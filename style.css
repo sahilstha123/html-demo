@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.first{
+    border: 2px solid red;
+    width: 60%;
+   margin: auto;
+}
