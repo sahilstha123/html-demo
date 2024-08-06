@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <a href="/">Home</a>
+    </div>
+    <h2>User Registration</h2>
+    <hr>
+    <form action="">
+        <p>
+            <label for="fname">FirstName:</label>
+            <input type="text" id="fname" name="FirstName" required autocomplete="on">
+        </p>
+
+        <p>
+            <label for="lname">LastName:</label>
+            <input type="text" id="lname" name="LastName"><br>
+        </p>
+
+
+        <!-- radio -->
+        <h4>choose your fav</h4>
+        <input type="radio" id="html" value="Html" name="program">
+        <label for="html">Html</label><br>
+
+        <input type="radio" id="css" value="CSS" name="program">
+        <label for="css">CSS</label><br>
+
+        <input type="radio" id="Java" value="JAVA" name="program">
+        <label for="Java">JAVA</label><br>
+
+        <!-- email -->
+        <p>
+            <label>email:</label>
+            <input type="email" name="" id="">
+        </p>
+
+        <!-- password -->
+        <p>
+            <label for="">Password:</label>
+            <input type="password" name="" id="">
+        </p>
+
+        <!-- phone number -->
+        <p>
+            <label for="">Phone:</label>
+            <input type="number" name="" id="">
+        </p>
+
+        <!-- DOB -->
+        <p>
+            <label for="">DOB</label>
+            <input type="date" name="" id="">
+        </p>
+
+        <!-- file -->
+        <p>
+            <label for="">file</label>
+            <input type="file" name="" id="" multiple>
+        </p>
+
+        <!-- message -->
+        <p>
+            <label for="">message</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+        </p>
+
+        <!-- check box -->
+        <p>
+            <label for="">your Hobbies?</label><br>
+            <input type="checkbox" name="" id="">
+            <label for="">Football</label><br>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Cricket</label><br>
+
+            <input type="checkbox" name="" id="">
+            <label for="">Basketball</label><br>
+        </p>
+
+        <hr>
+
+        <p>
+            <input type="checkbox" name="" id="">
+            <label for="">You accept terms and condition</label>
+        </p>
+
+        <!-- drop and down list -->
+        <p>
+            <label for="">fruit list</label>
+            <select name="fruit" id="">
+                <option value=""></option>
+                <option value="Apple">Apple</option>
+                <option value="Banana">Banana</option>
+                <option value="Mango">Mango</option>
+                <option value="orange">orange</option>
+            </select>
+        </p>
+
+        <!-- drop and down list having fruit and vegis -->
+
+        <p>
+            <label for="">fruit and vegis</label>
+            <select name="" id="">
+                <optgroup label="fruit">
+                    <option value="Apple">Apple</option>
+                    <option value="Banana">Banana</option>
+                    <option value="Mango">Mango</option>
+                    <option value="orange">orange</option>
+                </optgroup>
+
+                <optgroup label="vegis">
+                    <option value="cabbage">cabbage</option>
+                    <option value="cauliflower">cauliflower</option>
+                    <option value="ladyfinger">ladyfinger</option>
+
+                </optgroup>
+            </select>
+        </p>
+
+        <!-- new dropdownlist -->
+        <label for="">fruit and vegis</label>
+        <input type="text" list="linked">
+        <datalist id="linked">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Mango">Mango</option>
+            <option value="orange">orange</option>
+        </datalist>
+
+        <!-- fieldset -->
+         <fieldset>
+            <legend>personal</legend>
+            <p>
+                <label for="">username*:</label>
+                <input type="text" placeholder="username" autofocus>
+            </p>
+
+            <p>
+                <label for="">pin</label>
+                <input type="text" maxlength="4" size="4">
+            </p>
+            <!-- button -->
+        <button>submit</button>
+         </fieldset>
+        
+    </form>
+</body>
+
+</html>

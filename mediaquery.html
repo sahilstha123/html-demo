@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .left {
+            background-color: aqua;
+            width: 20%;
+            float: left;
+            padding: 12px;
+        }
+
+        .content {
+            background-color: rgb(81, 196, 161);
+            width: 60%;
+            float: left;
+            padding: 12px;
+        }
+
+        .right {
+            background-color: rgb(173, 156, 73);
+            width: 20%;
+            float: left;
+            padding: 12px;
+        }
+
+        @media screen and (max-width: 800px) {
+            .left, .content, .right {
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="left">
+            <p>Left Menu</p>
+        </div>
+        <div class="content">
+            <p>Content</p>
+        </div>
+        <div class="right">
+            <p>Right Menu</p>
+        </div>
+    </div>
+</body>
+
+</html>
